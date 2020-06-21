@@ -7,6 +7,12 @@
 */
 function mystery(x, y) {
 
+  if (Number(x) === Number(y)) {
+    return true;   
+  }
+  else{
+    return false;
+  }
 }
 
 // all of the test cases are correct
