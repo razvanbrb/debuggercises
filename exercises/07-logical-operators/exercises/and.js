@@ -2,9 +2,9 @@
 
 // write a function that behaves the same as &&
 //  ... without using &&
-function and(left, right) {
-
-}
+const and =(left, right)=>{
+    return left ? right:left;
+};
 
 const _1_expect = 0;
 const _1_actual = and(0, 0);

@@ -2,8 +2,8 @@
 
 // write a function that behaves the same as !
 //  ... but doesn't use !
-function not(value) {
-
+const not =(value)=>{
+    return value ? false : true;
 }
 
 const _1_expect = true;
