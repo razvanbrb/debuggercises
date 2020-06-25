@@ -318,7 +318,22 @@
       ]
     },
     {
-      "path": "/08-block-scope",
+      "path": "/08-functions-201",
+      "files": [
+        {
+          "path": "/0-example.js",
+          "isExample": true
+        },
+        {
+          "path": "/1-exercise.js"
+        },
+        {
+          "path": "/2-exercise.js"
+        }
+      ]
+    },
+    {
+      "path": "/09-block-scope",
       "dirs": [
         {
           "path": "/1-missing-values",
@@ -328,9 +343,6 @@
             },
             {
               "path": "/2.js"
-            },
-            {
-              "path": "/3.js"
             }
           ]
         },
@@ -379,25 +391,28 @@
       ]
     },
     {
-      "path": "/09-conditionals",
+      "path": "/10-conditional-statements",
       "dirs": [
         {
           "path": "/0-examples",
           "files": [
             {
-              "path": "/1-if-else.js"
+              "path": "/1-if.js"
             },
             {
-              "path": "/2-if-else-if-else.js"
+              "path": "/2-if-else.js"
             },
             {
-              "path": "/3-sequential-conditionals.js"
+              "path": "/3-if-else-if-else.js"
             },
             {
-              "path": "/4-nested-conditionals.js"
+              "path": "/4-sequential-conditionals.js"
             },
             {
-              "path": "/5-unreachable-paths.js"
+              "path": "/5-nested-conditionals.js"
+            },
+            {
+              "path": "/6-unreachable-paths.js"
             }
           ],
           "isExample": true
@@ -413,9 +428,6 @@
             },
             {
               "path": "/3-write-arguments.js"
-            },
-            {
-              "path": "/3-write-function.js"
             },
             {
               "path": "/4-write-function.js"
@@ -439,13 +451,7 @@
             }
           ]
         }
-      ],
-      "buttons": {
-        "console": false,
-        "debugger": true,
-        "flowViz": true,
-        "jsTutor": true
-      }
+      ]
     },
     {
       "path": "/10-functions-201",
@@ -503,6 +509,575 @@
           ]
         }
       ]
+    },
+    {
+      "path": "/11-refactoring-conditionals",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/0-statement-and-operator.js"
+            },
+            {
+              "path": "/1-if-else.js"
+            },
+            {
+              "path": "/2-if-else-if-else.js"
+            },
+            {
+              "path": "/3-nested.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-statement-to-operator",
+          "files": [
+            {
+              "path": "/1-if-else.js"
+            },
+            {
+              "path": "/2-if-else-if-else.js"
+            },
+            {
+              "path": "/3-nested.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-operator-to-statement",
+          "files": [
+            {
+              "path": "/1-if-else.js"
+            },
+            {
+              "path": "/2-if-else-if-else.js"
+            },
+            {
+              "path": "/3-nested.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/12-functions-301",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/1-documenting-functions.js"
+            },
+            {
+              "path": "/2-enforcing-types.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-fill-in-the-blanks",
+          "files": [
+            {
+              "path": "/1-write-tests.js"
+            },
+            {
+              "path": "/2-write-tests.js"
+            },
+            {
+              "path": "/3-pass-tests.js"
+            },
+            {
+              "path": "/4-pass-tests.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-fix-the-bugs",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/13-roles-of-variables",
+      "files": [
+        {
+          "path": "/back-tracing.js"
+        },
+        {
+          "path": "/readme.js"
+        }
+      ]
+    },
+    {
+      "path": "/14-increment-and-decrement",
+      "dirs": [
+        {
+          "path": "/examples",
+          "files": [
+            {
+              "path": "/postfix-decrement.js"
+            },
+            {
+              "path": "/postfix-increment.js"
+            },
+            {
+              "path": "/prefix-decrement.js"
+            },
+            {
+              "path": "/prefix-increment.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/exercises",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/15-while",
+      "dirs": [
+        {
+          "path": "/examples",
+          "files": [
+            {
+              "path": "/1-while.js"
+            },
+            {
+              "path": "/2-while-infinite.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/exercises",
+          "files": [
+            {
+              "path": "/1-write-tests.js"
+            },
+            {
+              "path": "/2-fix-the-bugs.js"
+            },
+            {
+              "path": "/3-pass-tests.js"
+            },
+            {
+              "path": "/4-pass-tests.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/16-for",
+      "dirs": [
+        {
+          "path": "/examples",
+          "files": [
+            {
+              "path": "/1-for-many-lines.js"
+            },
+            {
+              "path": "/2-for-one-line.js"
+            },
+            {
+              "path": "/3-for-infinite.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/exercises",
+          "files": [
+            {
+              "path": "/1-write-tests.js"
+            },
+            {
+              "path": "/2-fix-the-bugs.js"
+            },
+            {
+              "path": "/3-pass-tests.js"
+            },
+            {
+              "path": "/4-pass-tests.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/17-refactoring-loops",
+      "dirs": [
+        {
+          "path": "/exercises",
+          "files": [
+            {
+              "path": "/1-for-to-while.js"
+            },
+            {
+              "path": "/2-for-to-while.js"
+            },
+            {
+              "path": "/3-while-to-for.js"
+            },
+            {
+              "path": "/4-while-to-for.js"
+            }
+          ]
+        }
+      ],
+      "buttons": {
+        "loopGuard": {
+          "active": true,
+          "max": 20
+        },
+        "buttons": [
+          {
+            "console": false
+          },
+          {
+            "debugger": true
+          },
+          {
+            "jsTutor": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "/18-functions-401",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/0-implcit-return.js"
+            },
+            {
+              "path": "/and.js"
+            },
+            {
+              "path": "/complex.js"
+            },
+            {
+              "path": "/ternary.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-refactors",
+          "files": [
+            {
+              "path": "/1-implicit-to-explicit.js"
+            },
+            {
+              "path": "/2-implicit-to-explicit.js"
+            },
+            {
+              "path": "/3-explicit-to-implicit.js"
+            },
+            {
+              "path": "/4-explicit-to-implicit.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/19-implicit-coercion",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/0-complicated-but-learnable.js"
+            },
+            {
+              "path": "/1-plus.js"
+            },
+            {
+              "path": "/2-loose-equality.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-write-tests-arithmetic",
+          "files": [
+            {
+              "path": "/division.js"
+            },
+            {
+              "path": "/multiplication.js"
+            },
+            {
+              "path": "/remainder.js"
+            },
+            {
+              "path": "/subtraction.js"
+            },
+            {
+              "path": "/unary-minus.js"
+            },
+            {
+              "path": "/unary-plus.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-write-tests-relational",
+          "files": [
+            {
+              "path": "/greater-than-or-equal-to.js"
+            },
+            {
+              "path": "/greater-than.js"
+            },
+            {
+              "path": "/less-than-or-equal-to.js"
+            },
+            {
+              "path": "/less-than.js"
+            }
+          ]
+        },
+        {
+          "path": "/3-replicate",
+          "files": [
+            {
+              "path": "/loose-inequality.js"
+            },
+            {
+              "path": "/remainder.js"
+            },
+            {
+              "path": "/unary-minus.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/20-operator-precedence",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/1-literals.js"
+            },
+            {
+              "path": "/2-literals.js"
+            },
+            {
+              "path": "/3-literals.js"
+            },
+            {
+              "path": "/4-variables.js"
+            },
+            {
+              "path": "/5-variables.js"
+            },
+            {
+              "path": "/readme.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-literals",
+          "files": [
+            {
+              "path": "/1-coercion-and-comparing.js"
+            },
+            {
+              "path": "/2-arithmetic.js"
+            },
+            {
+              "path": "/3-logical-operators.js"
+            },
+            {
+              "path": "/4-all-together.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-variables",
+          "files": [
+            {
+              "path": "/1-coercing-and-comparing.js"
+            },
+            {
+              "path": "/2-arithmetic.js"
+            },
+            {
+              "path": "/3-logical-operators.js"
+            },
+            {
+              "path": "/4-all-together.js"
+            },
+            {
+              "path": "/5-all-together.js"
+            }
+          ]
+        },
+        {
+          "path": "/extra--syntax-trees",
+          "files": [
+            {
+              "path": "/1-types-and-comparisons.js"
+            },
+            {
+              "path": "/2-arithmetic.js"
+            },
+            {
+              "path": "/3-unary-operators.js"
+            },
+            {
+              "path": "/4-ternaries.js"
+            },
+            {
+              "path": "/5-and.js"
+            },
+            {
+              "path": "/6-or.js"
+            },
+            {
+              "path": "/7-or-and-or.js"
+            },
+            {
+              "path": "/8-all-together.js"
+            },
+            {
+              "path": "/readme.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/21-refactoring-expressions",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/0-expanding.js"
+            },
+            {
+              "path": "/1-types-and-comparisons.js"
+            },
+            {
+              "path": "/2-arithmetic.js"
+            },
+            {
+              "path": "/3-unary-operators.js"
+            },
+            {
+              "path": "/4-ternaries.js"
+            },
+            {
+              "path": "/5-and.js"
+            },
+            {
+              "path": "/6-or.js"
+            },
+            {
+              "path": "/7-or-and-or.js"
+            },
+            {
+              "path": "/8-all-together.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-coercion-and-comparing",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-arithmetic",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        },
+        {
+          "path": "/3-logical-operators",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        },
+        {
+          "path": "/4-all-together",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            },
+            {
+              "path": "/4.js"
+            },
+            {
+              "path": "/5.js"
+            }
+          ]
+        }
+      ]
     }
   ],
   "title": "Debuggercises",
@@ -512,5 +1087,5 @@
     "debugger": true,
     "jsTutor": true
   },
-  "lastBuild": "2020-06-23T09:08:35.493Z"
+  "lastBuild": "2020-06-25T14:10:53.829Z"
 }
